@@ -24,8 +24,14 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        //Navegacion al Scanner
         binding.ivCamara.setOnClickListener {
             findNavController().navigate(R.id.action_mainFragment_to_scannerFragment)
+        }
+
+        //Navegacion a CrearQR
+        binding.btnCreateCode.setOnClickListener {
+            findNavController().navigate(R.id.action_mainFragment_to_crearQR)
         }
     }
 

@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_mainFragment_to_scannerFragment"
             app:destination="@id/scannerFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_crearQR"
+            app:destination="@id/crearQR" />
     </fragment>
     <fragment
         android:id="@+id/scannerFragment"
@@ -21,6 +24,18 @@
         tools:layout="@layout/fragment_scanner" >
         <action
             android:id="@+id/action_scannerFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/crearQR"
+        android:name="com.example.codigosqr.CrearQR"
+        android:label="fragment_crear_q_r"
+        tools:layout="@layout/fragment_crear_q_r" >
+        <action
+            android:id="@+id/action_crearQR_to_mainFragment"
             app:destination="@id/mainFragment"
             app:popUpTo="@id/nav_graph"
             app:popUpToInclusive="true"

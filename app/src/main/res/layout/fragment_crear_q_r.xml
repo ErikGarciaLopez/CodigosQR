@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10131F"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Campo para el Nombre -->
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Primer nombre"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColorHint="#A6A9B0"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Campo para el Apellido -->
+        <EditText
+            android:id="@+id/etApellido"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Ultimo nombre"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColorHint="#A6A9B0"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Campo para el Teléfono -->
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Numero de telefono"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColorHint="#A6A9B0"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:inputType="phone"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Campo para el Correo Electrónico -->
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Correo"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColorHint="#A6A9B0"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón para generar vCard -->
+        <Button
+            android:id="@+id/btnGenerarVCard"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Crear vCard"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1D66FF"
+            android:background="@drawable/rounded_button"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
