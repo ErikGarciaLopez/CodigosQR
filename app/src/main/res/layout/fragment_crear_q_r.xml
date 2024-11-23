@@ -28,7 +28,7 @@
             android:id="@+id/etApellido"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:hint="Ultimo nombre"
+            android:hint="Apellido"
             android:background="@drawable/rounded_edittext"
             android:padding="12dp"
             android:textColorHint="#A6A9B0"
@@ -75,5 +75,17 @@
             android:backgroundTint="#1D66FF"
             android:background="@drawable/rounded_button"
             android:textSize="16sp" />
+
+        <!-- ImageView para mostrar el código QR -->
+        <ImageView
+            android:id="@+id/ivQRCode"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#FFFFFF"
+            android:padding="8dp"
+            android:visibility="gone" />
     </LinearLayout>
 </ScrollView>
