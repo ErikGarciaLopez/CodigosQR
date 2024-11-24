@@ -30,7 +30,7 @@
         android:id="@+id/btnCreateCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Crear código QR"
+        android:text="@string/crear_c_digo_qr"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

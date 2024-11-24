@@ -104,7 +104,7 @@ class ScannerFragment : Fragment() {
     private fun showInvalidQrMessage() {
         Toast.makeText(
             requireContext(),
-            "QR no válido. Debe ser una URL o una tarjeta de contacto",
+            getString(R.string.QR_no_valido_Debe_ser_una_URL_o_una_tarjeta_de_contacto),
             Toast.LENGTH_SHORT
         ).show()
     }

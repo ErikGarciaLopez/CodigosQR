@@ -52,7 +52,7 @@ class CrearQR : Fragment() {
             binding.ivQRCode.setImageBitmap(qrBitmap)
             binding.ivQRCode.visibility = View.VISIBLE  // Hacer visible el ImageView
         } catch (e: Exception) {
-            Toast.makeText(requireContext(), "Error al generar QR", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(), getString(R.string.error_al_generar_QR), Toast.LENGTH_SHORT).show()
         }
 
     }
@@ -67,25 +67,25 @@ class CrearQR : Fragment() {
 
         // Validar nombre
         if (nombre.isEmpty()) {
-            binding.etNombre.error = "Nombre es obligatorio"
+            binding.etNombre.error = getString(R.string.nombre_es_obligatorio)
             esValido = false
         }
 
         // Validar apellido
         if (apellido.isEmpty()) {
-            binding.etApellido.error = "Apellido es obligatorio"
+            binding.etApellido.error = getString(R.string.apellido_es_obligatorio)
             esValido = false
         }
 
         // Validar teléfono (10 dígitos)
         if (telefono.isEmpty() || !telefono.matches("\\d{10}".toRegex())) {
-            binding.etTelefono.error = "Teléfono debe ser de 10 dígitos"
+            binding.etTelefono.error = getString(R.string.telefono_debe_ser_de_10_dígitos)
             esValido = false
         }
 
         // Validar correo
         if (correo.isNotEmpty() && !android.util.Patterns.EMAIL_ADDRESS.matcher(correo).matches()) {
-            binding.etCorreo.error = "Correo inválido"
+            binding.etCorreo.error = getString(R.string.correo_invalido)
             esValido = false
         }
 
