@@ -12,6 +12,16 @@
     <string name="correo_invalido">Correo inválido</string>
     <string name="QR_no_valido_Debe_ser_una_URL_o_una_tarjeta_de_contacto">QR no válido. Debe ser una URL o una tarjeta de contacto</string>
 
+    <string name="permiso_requerido">Permiso requerido</string>
+    <string name="se_requiere_el_permiso_solamente_para_leer_codigos_QR">Se requiere el permiso solamente para leer codigos QR</string>
+    <string name="entendido">Entendido</string>
+    <string name="salir">Salir</string>
+    <string name="el_permiso_se_nego_permanentemente">El permiso se negó permanentemente</string>
+
+
+
+
+
 
 
 
