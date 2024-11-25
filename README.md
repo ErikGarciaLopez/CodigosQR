@@ -53,7 +53,7 @@ END:VCARD
 ## Installation
 1. Clone this repository:
    ```bash
-   https://github.com/ErikGarciaLopez/CodigosQR.git
+   git clone https://github.com/ErikGarciaLopez/CodigosQR.git
    ```
 2. Open it in Android Studio.
 3. Compile and run it on a device with API >= 24.
