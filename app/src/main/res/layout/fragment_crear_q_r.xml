@@ -2,7 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#10131F"
+    android:background="@color/blue_bg"
     android:padding="16dp">
 
     <LinearLayout
@@ -18,8 +18,8 @@
             android:hint="@string/primer_nombre"
             android:background="@drawable/rounded_edittext"
             android:padding="12dp"
-            android:textColorHint="#A6A9B0"
-            android:textColor="#FFFFFF"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/white"
             android:textSize="14sp"
             android:inputType="textPersonName"
             android:layout_marginBottom="12dp" />
@@ -32,8 +32,8 @@
             android:hint="@string/apellido"
             android:background="@drawable/rounded_edittext"
             android:padding="12dp"
-            android:textColorHint="#A6A9B0"
-            android:textColor="#FFFFFF"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/white"
             android:textSize="14sp"
             android:inputType="textPersonName"
             android:layout_marginBottom="12dp" />
@@ -46,8 +46,8 @@
             android:hint="@string/numero_de_telefono"
             android:background="@drawable/rounded_edittext"
             android:padding="12dp"
-            android:textColorHint="#A6A9B0"
-            android:textColor="#FFFFFF"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/white"
             android:textSize="14sp"
             android:inputType="phone"
             android:layout_marginBottom="12dp" />
@@ -60,8 +60,8 @@
             android:hint="@string/correo"
             android:background="@drawable/rounded_edittext"
             android:padding="12dp"
-            android:textColorHint="#A6A9B0"
-            android:textColor="#FFFFFF"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/white"
             android:textSize="14sp"
             android:inputType="textEmailAddress"
             android:layout_marginBottom="16dp" />
@@ -72,8 +72,8 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="@string/crear_vcard"
-            android:textColor="#FFFFFF"
-            app:backgroundTint="#1D66FF"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/actionbar"
             app:cornerRadius="25dp"
             android:textSize="16sp" />
 
@@ -85,7 +85,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:background="#FFFFFF"
+            android:background="@color/white"
             android:padding="8dp"
             android:visibility="gone" />
     </LinearLayout>

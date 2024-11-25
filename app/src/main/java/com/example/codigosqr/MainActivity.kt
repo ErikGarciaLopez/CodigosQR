@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         if (navHostFragment != null) {
             navController = navHostFragment.findNavController()
             NavigationUI.setupActionBarWithNavController(this, navController)
-            supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#00BFFF")))
+            supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#1466B8")))
         }
 
     }

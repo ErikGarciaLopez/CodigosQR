@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue_bg">#121A21</color>
+    <color name="actionbar">#1466B8</color>
+    <color name="colorhint">#94ADC7</color>
+    <color name="rounded_et">#334D66</color>
 </resources>
