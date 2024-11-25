@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ireaderbanner" />
+        app:srcCompat="@drawable/banner" />
 
     <ImageView
         android:id="@+id/ivCamara"
@@ -26,11 +26,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/camera" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnCreateCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/crear_c_digo_qr"
+        app:backgroundTint="#1D66FF"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

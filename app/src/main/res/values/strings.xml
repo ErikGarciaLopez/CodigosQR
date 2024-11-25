@@ -4,6 +4,7 @@
     <string name="apellido">Apellido</string>
     <string name="numero_de_telefono">Numero de telefono</string>
     <string name="correo">Correo</string>
+    <string name="crear_vcard">Crear vCard</string>
     <string name="crear_c_digo_qr">Crear código QR</string>
     <string name="error_al_generar_QR">Error al generar QR</string>
     <string name="nombre_es_obligatorio">Nombre es obligatorio</string>
@@ -11,7 +12,6 @@
     <string name="telefono_debe_ser_de_10_dígitos">Teléfono debe ser de 10 dígitos</string>
     <string name="correo_invalido">Correo inválido</string>
     <string name="QR_no_valido_Debe_ser_una_URL_o_una_tarjeta_de_contacto">QR no válido. Debe ser una URL o una tarjeta de contacto</string>
-
     <string name="permiso_requerido">Permiso requerido</string>
     <string name="se_requiere_el_permiso_solamente_para_leer_codigos_QR">Se requiere el permiso solamente para leer codigos QR</string>
     <string name="entendido">Entendido</string>
